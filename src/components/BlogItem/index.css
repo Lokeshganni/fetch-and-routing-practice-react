@@ -1,0 +1,97 @@
+/* Write your CSS code here */
+.blog-item-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #8e8e8e;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .blog-item-container {
+    flex-direction: row;
+  }
+}
+
+.blog-item-image-card {
+  width: 100%;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .blog-item-image-card {
+    width: 50%;
+    margin: 15px;
+  }
+}
+
+.blog-item-image {
+  width: 100%;
+}
+
+.blog-item-content-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  padding-top: none;
+}
+
+@media screen and (min-width: 768px) {
+  .blog-item-content-card {
+    width: 50%;
+    margin: 15px;
+  }
+}
+
+.topic-para {
+  color: #8e8e8e;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .topic-para {
+    font-size: 18px;
+  }
+}
+
+.title-para {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 5px 0;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .title-para {
+    font-size: 20px;
+    margin: 7px 0;
+  }
+}
+
+.avatar-and-author-card {
+  display: flex;
+  align-items: center;
+}
+
+.blog-item-avatar {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.author-para {
+  color: #8e8e8e;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .author-para {
+    font-size: 18px;
+  }
+}

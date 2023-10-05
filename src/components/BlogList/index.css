@@ -1,0 +1,10 @@
+/* Write your CSS code here */
+.blog-list-container {
+  padding: 3%;
+}
+
+@media screen and (min-width: 768px) {
+  .blog-list-container {
+    padding: 5%;
+  }
+}
